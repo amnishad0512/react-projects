@@ -1,0 +1,31 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div > button {
+  background-image: linear-gradient(
+    to right,
+    #1a2980 0%,
+    #26d0ce 51%,
+    #1a2980 100%
+  );
+  padding: 10px 25px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border: none;
+  border-radius: 10px;
+  font-size:20px;
+  font-weight: bolder;
+}
+
+div > button:hover {
+  background-position: right center;
+}
+
+span {
+  font-size: 30px;
+  font-weight: bold;
+}
